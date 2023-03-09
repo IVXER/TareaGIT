@@ -1,0 +1,42 @@
+* {
+    box-sizing: border border-box;
+    margin: 0;
+}
+
+body {
+    height: 98vh;
+    background-image: url(images/unnamed.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    font-family: helvetica;
+}
+
+
+.PrincipalBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    font-size: 40px;
+}
+
+.PrincipalBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.ItemBox {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.ItemBox2 a {
+    text-decoration: none;
+    color: black;
+}
